@@ -108,9 +108,10 @@ export const ProductItem = ({
     </Link>
   );
 };
-
-export const HoveredLink = ({ children, ...rest }: any) => {
+//@ts-expect-error
+export const HoveredLink = ({ children, ...rest }) => {
   return (
+    //@ts-expect-error
     <Link
       {...rest}
       className="text-neutral-700 dark:text-neutral-200 hover:text-black "
