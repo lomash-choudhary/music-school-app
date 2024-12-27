@@ -56,7 +56,8 @@ export default function FeaturedCourses() {
                         ${course.price}
                       </span>
                       <Link
-                        href={`/courses/${course.slug}`}
+                        // href={`/courses/${course.slug}`}
+                        href={"/"}
                         className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-teal-600 rounded-md hover:bg-teal-700 transition-colors"
                       >
                         Learn More

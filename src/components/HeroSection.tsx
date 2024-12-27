@@ -22,7 +22,7 @@ export default function HeroSection() {
 
         <div className="mt-14">
 
-          <Link href={"/courses"}>
+          <Link href={"/"}>
 
             <Button
               borderRadius="1.75rem"

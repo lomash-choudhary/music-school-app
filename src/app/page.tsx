@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import FooterComponent from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import InstructorComponent from "@/components/InstructorComponents";
 import MovingCardsComponent from "@/components/MovingCardsComponent";
@@ -15,6 +16,7 @@ export default function Home() {
       <MovingCardsComponent />
       <UpComingWebinars />
       <InstructorComponent />
+      <FooterComponent />
     </main>
   );
 }
