@@ -23,16 +23,16 @@ export default function NavBar({ className }: { className?: string }) {
         </HoveredLink>
         <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">All Course</HoveredLink>
-            <HoveredLink href="/interface-design">
+            <HoveredLink href="/courses">All Course</HoveredLink>
+            <HoveredLink href="/courses">
               Basic Music Theory
             </HoveredLink>
-            <HoveredLink href="/seo">Advance Composition</HoveredLink>
-            <HoveredLink href="/branding">Song Writing</HoveredLink>
-            <HoveredLink href="/branding">Music Production</HoveredLink>
+            <HoveredLink href="/courses">Advance Composition</HoveredLink>
+            <HoveredLink href="/courses">Song Writing</HoveredLink>
+            <HoveredLink href="/courses">Music Production</HoveredLink>
           </div>
         </MenuItem>
-          <HoveredLink href="/">
+          <HoveredLink href="/contact">
             <MenuItem
               setActive={setActive}
               active={active}
